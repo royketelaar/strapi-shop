@@ -27,8 +27,13 @@
       "plugin": "upload",
       "required": false
     },
+    "quantity": {
+      "type": "integer",
+      "default": 0
+    },
     "price": {
-      "type": "string"
+      "type": "decimal",
+      "default": 0
     }
   }
 }
